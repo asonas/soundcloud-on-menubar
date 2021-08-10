@@ -14,6 +14,7 @@
 		D84B7654251355DD004DA353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84B7652251355DD004DA353 /* Main.storyboard */; };
 		D84B7660251355DD004DA353 /* soundcloud_on_menubarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84B765F251355DD004DA353 /* soundcloud_on_menubarTests.swift */; };
 		D84B766B251355DD004DA353 /* soundcloud_on_menubarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84B766A251355DD004DA353 /* soundcloud_on_menubarUITests.swift */; };
+		D84B767925135AEE004DA353 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84B767825135AEE004DA353 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		D84B7666251355DD004DA353 /* soundcloud-on-menubarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "soundcloud-on-menubarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D84B766A251355DD004DA353 /* soundcloud_on_menubarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundcloud_on_menubarUITests.swift; sourceTree = "<group>"; };
 		D84B766C251355DD004DA353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D84B767825135AEE004DA353 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				D84B7655251355DD004DA353 /* Info.plist */,
 				D84B7656251355DD004DA353 /* soundcloud_on_menubar.entitlements */,
 				D84B764F251355DD004DA353 /* Preview Content */,
+				D84B767825135AEE004DA353 /* WebView.swift */,
 			);
 			path = "soundcloud-on-menubar";
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D84B767925135AEE004DA353 /* WebView.swift in Sources */,
 				D84B764C251355DB004DA353 /* ContentView.swift in Sources */,
 				D84B764A251355DB004DA353 /* AppDelegate.swift in Sources */,
 			);
@@ -435,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"soundcloud-on-menubar/Preview Content\"";
+				DEVELOPMENT_TEAM = R48LP3T96W;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "soundcloud-on-menubar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"soundcloud-on-menubar/Preview Content\"";
+				DEVELOPMENT_TEAM = R48LP3T96W;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "soundcloud-on-menubar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
